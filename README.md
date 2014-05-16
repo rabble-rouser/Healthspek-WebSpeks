@@ -1,4 +1,4 @@
-# Healthspek Web Speks Developer's Guide and Quick-Start Template
+# Web Spek Developer's Guide & Quick-Start Template
 
 Healthspek Web Speks are web pages embedded into the Healthspek iPad and Web Apps.  Web Speks open the opportunity for you, as a developer, to create a Spek to be available for all Healthspek users.  After your Spek is approved, it can be added by Healthspek users to their Healthspek Dashboards alongside all of their other Speks.
 
