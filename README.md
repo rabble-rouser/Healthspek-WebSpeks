@@ -30,12 +30,12 @@ Load this Javascript in your Spek HTML page to access the Web Spek API:
 
 
 **close** – close the current full-screen or model web view
-- HTML: `<a href="#" target="close">`
-- Javascript: `window.open(null, 'close');`
+- HTML: `<a href="javascript:window.close()">`
+- Javascript: `window.close();`
 
 _You can optionally load (or reload) a page in the parent web view:_
 - HTML: `<a href="home.html" target="close">`
-- Javascript: `window.open('home.html', 'close');`
+- Javascript: `window.close('home.html');`
 
 
 ## Testing Web Speks
