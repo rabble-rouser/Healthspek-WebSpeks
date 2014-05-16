@@ -2,6 +2,8 @@
 
 Healthspek Web Speks are web pages embedded into the Healthspek iPad and Web Apps.  Web Speks open the opportunity for you, as a developer, to create a Spek to be available for all Healthspek users.  After your Spek is approved, it can be added by Healthspek users to their Healthspek Dashboards alongside all of their other Speks.
 
+Learn more about the Healthspek Apps at [Healthspek.com](http://www.healthspek.com/).
+
 ## Getting Started
 
 A Web Spek is simply a web page that you host and manage.  It is viewable in Healthspek Apps in a web view.  HTML, CSS and Javascript can be used as desired.  We provide a Web Spek API so that your Spek can interact with the Healthspek App for optional functionality.
@@ -15,7 +17,7 @@ Load this Javascript in your Spek HTML page to access the Web Spek API:
 <script type="text/javascript" src="http://app.healthspek.com/api/webspek/">
 ```
 
-### Actions:
+### API Actions:
 
 **open** – open a full-screen web view
 - HTML: `<a href="fullscreen.html" target="open">`
