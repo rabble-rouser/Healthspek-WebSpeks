@@ -1,4 +1,5 @@
-# Web Spek Developer's Guide & Quick-Start Template
+[<img src="http://rabble-rouser.github.io/Healthspek-WebSpeks/healthspek.png" width="300">](http://www.healthspek.com)
+# Web Spek Developer's Guide <br/> & Quick-Start Template
 
 Healthspek Web Speks are web pages embedded into the Healthspek iPad and Web Apps.  Web Speks open the opportunity for you, as a developer, to create a Spek to be available for all Healthspek users.  After your Spek is approved, it can be added by Healthspek users to their Healthspek Dashboards alongside all of their other Speks.
 
@@ -41,7 +42,7 @@ _You can optionally load (or reload) a page in the parent web view:_
 
 - **Testing your Web Spek on the Healthspek Web App:**
 
-    See your Web Spek as it will appear in the web application at http://app.healthspek.com/preview/webspek
+    See your Web Spek as it will appear in the web application at http://app.healthspek.com/api/webspek/preview
 
     Enter your Spek’s name and URL and click “Test”.
 
