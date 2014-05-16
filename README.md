@@ -9,7 +9,7 @@ Learn more about the Healthspek Apps at [Healthspek.com](http://www.healthspek.c
 
 A Web Spek is simply a web page that you host and manage.  It is viewable in Healthspek Apps in a web view.  HTML, CSS and Javascript can be used as desired.  We provide a Web Spek API so that your Spek can interact with the Healthspek App for optional functionality.
 
-Download our Web Spek template as a starting point for your first Spek: http://github.com/rabble-rouser/Healthspek-WebSpeks
+Download our Web Spek template as a starting point for your first Spek: http://github.com/rabble-rouser/Healthspek-WebSpeks/archive/gh-pages.zip
 
 ## Web Spek API
 
