@@ -33,7 +33,7 @@ Your Web Spek must be approved by Healthspek before it is added to the Healthspe
 ## Web Spek Files
 
 - **/ (root)** : Accessing the root of your Spek URL must return the default Spek content.  Your server might automatically load a file named *index.html* or similar.
-- **header.png** : If there is a file named `header.png` located in your Spek directory then it will be used as your Spek header.  If this image is missing, a default header design with your Spek name will be displayed instead.  We recommend that `header.png` be 320 pixels wide by 40 pixels tall.
+- **header.png** : If there is a file named `header.png` located in your Spek directory then it will be used as your Spek header.  If this image is missing, a default header design with your Spek name will be displayed instead.  We recommend that `header.png` be 320 pixels wide by 40 pixels tall and have a transparent background.  This image will be displayed over light gray and white backgrounds.
 
 
 ## Web Spek API
