@@ -11,13 +11,13 @@
     <a class="button" data-hspek="close">Close Modal</a>
     <a href="#details-test-1">Details</a>
     <div class="detail-view" id="details-test-1">
-      <p>Clicking/tapping <span class="code">Close Modal</span> will close the modal.</p>
+      <p>Clicking <span class="code">Close Modal</span> will close the modal.</p>
       <code>
         ----
         <br>HTML
         <br>----
         <br><br>
-        &lt;!--Our anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, but we are not sending one.--&gt;
+        &lt;!--This anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, but we are not sending one.--&gt;
         <br><br>
         &lt;a class=&quot;button&quot; data-hspek=&quot;close&quot;&gt;Close Modal&lt;/a&gt;
         <br><br>
@@ -34,7 +34,7 @@
 
     <hr />
 
-    <a class="button" href="modal.html" data-hspek="close">Close Modal & Redirect</a>
+    <a class="button" href="page1.html" data-hspek="close">Close Modal & Redirect</a>
     <a href="#details-test-2">Details</a>
     <div class="detail-view" id="details-test-2">
       <p>Clicking/tapping <span class="code">Close Modal & Redirect</span> will close the modal and redirect to <span class="code">page1.html</span>.</p>
@@ -43,9 +43,9 @@
         <br>HTML
         <br>----
         <br><br>
-        &lt;!--Our anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, set to redirect to our `page1.html`.--&gt;
+        &lt;!--This anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, set to redirect to our `page1.html`.--&gt;
         <br><br>
-        &lt;a class=&quot;button&quot; href=&quot;http://rabble-rouser.github.io/Healthspek-WebSpeks/modal.html&quot; data-hspek=&quot;close&quot;&gt;Close Modal &amp; Redirect&lt;/a&gt;
+        &lt;a class=&quot;button&quot; href=&quot;page1.html&quot; data-hspek=&quot;close&quot;&gt;Close Modal &amp; Redirect&lt;/a&gt;
         <br><br>
         <br>--
         <br>JS
@@ -53,13 +53,13 @@
         <br><br>
         /* The `hspek.close` method accepts one optional parameter: the `href` to redirect to. */
 
-        hspek.close('modal.html');
+        hspek.close('page1.html');
         <br><br>
       </code>
     </div>
 
     <hr />
 
-    <script type="text/javascript" src="http://app.healthspek.com/api/webspek/"></script>
+    <script type="text/javascript" src="//app.healthspek.com/api/webspek/"></script>
   </body>
 </html>
