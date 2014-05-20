@@ -1,0 +1,30 @@
+span.code {
+    font-family: monospace;
+}
+.detail-view {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    padding: 0;
+}
+
+.detail-view:target {
+    max-height: 500px;
+
+    padding: 20px 0;
+}
+
+code {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+}
+
+dl {
+    margin-bottom:10px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}

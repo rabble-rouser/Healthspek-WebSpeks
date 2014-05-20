@@ -4,30 +4,62 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1">
     <title>Sample Web Spek</title>
+    <link href="//app.healthspek.com/api/webspek/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>
-        <dl>
-          <dt>Method</dt>
-          <dd>close</dd>
-        </dl>
-        <a data-hspek="close">Test</a>
-    </p>
+    <a class="button" data-hspek="close">Close Modal</a> |
+    <a href="#details-test-1">Details</a>
+    <div class="detail-view" id="details-test-1">
+      <p>Clicking/tapping <span class="code">Close Modal</span> will close the modal.</p>
+      <code>
+        ----
+        <br>HTML
+        <br>----
+        <br><br>
+        &lt;!--Our anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, but we are not sending one.--&gt;
+        <br><br>
+        &lt;a class=&quot;button&quot; data-hspek=&quot;close&quot;&gt;Close Modal&lt;/a&gt;
+        <br><br>
+        <br>--
+        <br>JS
+        <br>--
+        <br><br>
+        /* The `hspek.close` method accepts one optional parameter: the `href` to redirect to. */
+
+        hspek.close();
+        <br><br>
+      </code>
+    </div>
+
     <hr />
-    <p>
-        <dl>
-          <dt>Method</dt>
-          <dd>close</dd>
-          <dt>Parameters</dt>
-          <dd>
-            <dl>
-              <dt>href</dt>
-              <dd>http://rabble-rouser.github.io/Healthspek-WebSpeks/page1.html</dd>
-            </dl>
-          </dd>
-        </dl>
-        <a href="http://rabble-rouser.github.io/Healthspek-WebSpeks/page1.html" data-hspek="close">Test</a>
-    </p>
+
+    <a class="button" href="modal.html" data-hspek="close">Close Modal & Redirect</a> |
+    <a href="#details-test-2">Details</a>
+    <div class="detail-view" id="details-test-2">
+      <p>Clicking/tapping <span class="code">Close Modal & Redirect</span> will close the modal and redirect to <span class="code">page1.html</span>.</p>
+      <code>
+        ----
+        <br>HTML
+        <br>----
+        <br><br>
+        &lt;!--Our anchor has the data-hspek attribute set to `close`, which accepts an optional `href` attribute, set to redirect to our `page1.html`.--&gt;
+        <br><br>
+        &lt;a class=&quot;button&quot; href=&quot;http://rabble-rouser.github.io/Healthspek-WebSpeks/modal.html&quot; data-hspek=&quot;close&quot;&gt;Close Modal &amp; Redirect&lt;/a&gt;
+        <br><br>
+        <br>--
+        <br>JS
+        <br>--
+        <br><br>
+        /* The `hspek.close` method accepts one optional parameter: the `href` to redirect to. */
+
+        hspek.close('modal.html');
+        <br><br>
+      </code>
+    </div>
+
+    <hr />
+
     <script type="text/javascript" src="http://app.healthspek.com/api/webspek/"></script>
   </body>
 </html>
