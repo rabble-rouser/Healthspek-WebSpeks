@@ -11,6 +11,11 @@ A Web Spek is simply a web page that you host and manage.  It is viewable in Hea
 
 Download our Web Spek template as a starting point for your first Spek: http://github.com/rabble-rouser/Healthspek-WebSpeks/archive/gh-pages.zip
 
+**Server Requirements**
+You will be hosting your own Web Speks.  Your server configuration must meet these guidelines:
+- Your Web Spek must be accessible via HTTP over SSL; that is, via the `https` protocol.
+- Your Web Spek must not deny `x-frame-options` access from `app.healthspek.com`, nor can your Web Spek link to any URL can denies `x-frame-options` access from `app.healthspek.com`.
+
 
 ## Testing Web Speks
 
