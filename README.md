@@ -60,3 +60,11 @@ Load this Javascript in your Spek HTML page to access the Web Spek API:
 _You can optionally load (or reload) a page in the parent web view:_
 - HTML: `<a href="home.html" data-hspek="close">`
 - Javascript: `hspek.close('home.html');`
+
+
+## Web Spek Style Guide
+
+Load this CSS in your Spek HTML page to use our CSS styles:
+```html
+<link href="//app.healthspek.com/api/webspek/style.css" rel="stylesheet" type="text/css">
+```
