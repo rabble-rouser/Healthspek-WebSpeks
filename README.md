@@ -46,17 +46,17 @@ Load this Javascript in your Spek HTML page to access the Web Spek API:
 ### API Actions:
 
 **open** – open a full-screen web view
-- HTML: `<a href="fullscreen.html" target="open">`
-- Javascript: `window.open('fullscreen.html', 'open');`
+- HTML: `<a href="fullscreen.html" data-hspek="open">`
+- Javascript: `hspek.open('fullscreen.html', 'open');`
 
 **modal** – open a modal web view
-- HTML: `<a href="modal.html" target="modal">`
-- Javascript: `window.open('modal.html', 'modal');`
+- HTML: `<a href="modal.html" data-hspek="modal">`
+- Javascript: `hspek.open('modal.html', 'modal');`
 
 **close** – close the current full-screen or model web view
-- HTML: `<a target="close">`
-- Javascript: `window.close();`
+- HTML: `<a data-hspek="close">`
+- Javascript: `hspek.close();`
 
 _You can optionally load (or reload) a page in the parent web view:_
-- HTML: `<a href="home.html" target="close">`
-- Javascript: `window.close('home.html');`
+- HTML: `<a href="home.html" data-hspek="close">`
+- Javascript: `hspek.close('home.html');`
