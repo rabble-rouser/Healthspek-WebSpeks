@@ -1,4 +1,4 @@
-[<img src="http://rabble-rouser.github.io/Healthspek-WebSpeks/header.png" width="300">](http://www.healthspek.com)
+[<img src="http://rabble-rouser.github.io/Healthspek-WebSpeks/template/header.png" width="300">](http://www.healthspek.com)
 # Web Spek Developer's Guide <br/> & Quick-Start Template
 
 Healthspek Web Speks are web pages embedded into the Healthspek iPad and Web Apps.  Web Speks open the opportunity for you, as a developer, to create a Spek to be available for all Healthspek users.  After your Spek is approved, it can be added by Healthspek users to their Healthspek Dashboards alongside all of their other Speks.
