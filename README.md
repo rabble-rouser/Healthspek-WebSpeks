@@ -7,14 +7,14 @@ Learn more about the Healthspek Apps at [Healthspek.com](http://www.healthspek.c
 
 ## Getting Started
 
-A Web Spek is simply a web page that you host and manage.  It is viewable in Healthspek Apps in a web view.  HTML, CSS and Javascript can be used as desired.  We provide a Web Spek API so that your Spek can interact with the Healthspek App for optional functionality.
+A Web Spek is simply a web page that you host and manage.  It is viewable in Healthspek Apps in a web view.  HTML, CSS and Javascript can be used as desired.  We provide a Web Spek API so that your Spek can interact with the Healthspek App for added functionality.
 
 Download our Web Spek template as a starting point for your first Spek: http://github.com/rabble-rouser/Healthspek-WebSpeks/archive/gh-pages.zip
 
 **Server Requirements**
 You will be hosting your own Web Speks.  Your server configuration must meet these guidelines:
 - Your Web Spek must be accessible via HTTP over SSL; that is, via the `https` protocol.
-- Your Web Spek must not deny `x-frame-options` access from `app.healthspek.com`, nor can your Web Spek link to any URL can denies `x-frame-options` access from `app.healthspek.com`.
+- Your Web Spek must not deny `x-frame-options` access from `app.healthspek.com`, nor can your Web Spek link to any URL that denies `x-frame-options` access from `app.healthspek.com`.
 
 
 ## Testing Web Speks
