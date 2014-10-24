@@ -45,7 +45,7 @@ Your Web Spek must be approved by Healthspek before it is added to the Healthspe
 
 Load this Javascript in your Spek HTML page to access the Web Spek API:
 ```html
-<script type="text/javascript" src="http://app.healthspek.com/api/webspek/">
+<script type="text/javascript" src="//app.healthspek.com/api/webspek/">
 ```
 
 ### API Actions:
