@@ -67,6 +67,14 @@ _You can optionally load (or reload) a page in the parent web view:_
 - Javascript: `hspek.close('home.html');`
 
 
+## Working with Member-Specific Data
+
+When your Web Spek is loaded via its URL, two parameters will be passed via the URL query string:
+
+1. `accessCode` - This is a session identifier that is necessary when communicating directly with the ChartNow API.  This session identifier is only guaranteed to be valid during the user's current session.
+2. `individualID` - This is a unique member ID that can be used to store information specific to the current member.  This ID will always refer to the same member and will never change.
+
+
 ## Web Spek Style Guide
 
 Load this CSS in your Spek HTML page to use our CSS styles:
